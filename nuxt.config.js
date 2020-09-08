@@ -24,7 +24,7 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: './favicon.ico' }
     ]
   },
   /*
@@ -42,7 +42,7 @@ export default {
   ** Auto import components
   ** See https://nuxtjs.org/api/configuration-components
   */
-  components: true,
+  components: false,
   /*
   ** Nuxt.js dev-modules
   */
