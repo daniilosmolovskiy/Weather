@@ -6,8 +6,7 @@
     "dev": "nuxt-ts",
     "build": "nuxt-ts build",
     "start": "nuxt-ts start",
-    "generate": "nuxt-ts generate",
-    "heroku-postbuild": "npm run build"
+    "generate": "nuxt-ts generate"
   },
   "dependencies": {
     "@mdi/js": "^5.5.55",
