@@ -27,9 +27,9 @@ import VueSweetalert2 from 'vue-sweetalert2'
 Vue.use(VueSweetalert2)
 
 // @ is an alias to /src
-import Search from '@/components/Search.vue'
-import Result from '@/components/Result.vue'
-import History from '@/components/History.vue'
+import Search from '~/components/Search.vue'
+import Result from '~/components/Result.vue'
+import History from '~/components/History.vue'
 
 interface HistoryItem {
   name: string
